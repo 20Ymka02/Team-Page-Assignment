@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Incredibles Team Page</title>
+    <style>
+        body {
+            font-family: 'Arial Black', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding-top: 80px;
+            background-color: #1a1a1a; 
+            color: #fff;
+        }
+
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #d32f2f;
+            padding: 15px 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header h1 {
+            text-align: center;
+            color: #fbc02d;
+            font-size: 3em;
+            text-shadow: 2px 2px #000;
+        }
+
+        .team-member {
+            background: #2b2b2b;
+            margin-bottom: 40px;
+            padding: 25px;
+            border-radius: 15px;
+            overflow: hidden; 
+            border: 2px solid #d32f2f;
+        }
+
+
+        .image-box {
+            position: relative;
+ 
+            float: left;
+            margin-right: 30px;
+        }
+
+        .image-box img {
+            width: 180px;
+            height: 180px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 3px solid #fbc02d;
+        }
+
+
+        .hero-logo {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            background: #fbc02d;
+            color: #d32f2f;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 35px;
+            font-weight: bold;
+            border: 2px solid #fff;
+        }
+
+        .bio h2 {
+            margin: 0 0 10px 0;
+            color: #fbc02d;
+        }
+
+        .bio p {
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MISSIONS</a></li>
+            <li><a href="#">STATS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>THE INCREDIBLES</h1>
+        </header>
+
+
+        <section class="team-member">
+            <div class="image-box">
+                <img src="mr.i.jpg" alt="Mr. Incredible">
+                <div class="hero-logo">i</div>
+            </div>
+            <div class="bio">
+                <h2>Mr. Incredible</h2>
+                <p>Bob Parr is a man of immense strength and a strong sense of justice. As a father, he leads his family through every battle with courage. He is physically nearly invulnerable and can lift massive objects with ease.</p>
+            </div>
+        </section>
+
+
+        <section class="team-member">
+            <div class="image-box">
+                <img src="elastic.jpg" alt="Elastigirl">
+                <div class="hero-logo">i</div>
+            </div>
+            <div class="bio">
+                <h2>Elastigirl</h2>
+                <p>Helen Parr is a master of flexibility. She can stretch any part of her body up to 30 meters and reshape herself into various forms like parachutes or boats. She is the tactical mind of the team.</p>
+            </div>
+        </section>
+
+
+        <section class="team-member">
+            <div class="image-box">
+                <img src="violet.jpg" alt="Violet">
+                <div class="hero-logo">i</div>
+            </div>
+            <div class="bio">
+                <h2>Violet Parr</h2>
+                <p>Violet has the power of invisibility and force-field generation. She is the team's defensive specialist, protecting her family from explosions and enemy attacks with her purple energy shields.</p>
+            </div>
+        </section>
+
+
+        <section class="team-member">
+            <div class="image-box">
+                <img src="dash.jpg" alt="Dash">
+                <div class="hero-logo">i</div>
+            </div>
+            <div class="bio">
+                <h2>Dash Parr</h2>
+                <p>Dash is a speedster with a competitive spirit. He can run fast enough to travel across water without sinking. His reflexes are incredibly sharp, making him a difficult target for any villain.</p>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
